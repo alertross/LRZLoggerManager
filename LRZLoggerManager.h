@@ -1,9 +1,8 @@
 //
 //  LRZLoggerManager.h
-//  CKMeiTuanShopView
 //
 //  Created by 刘强 on 2018/10/26.
-//  Copyright © 2018 CK. All rights reserved.
+//  Copyright © 2018 LightReason. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -19,14 +18,6 @@ NS_ASSUME_NONNULL_BEGIN
 + (instancetype) sharedInstance;
 
 #pragma mark - Method
-
-/**
- *  写入日志
- *
- *  @param module 模块名称
- *  @param logStr 日志信息,动态参数
- */
-- (void)logInfo:(NSString*)module logStr:(NSString*)logStr, ...;
 - (void)pub_logInfo:(NSString*)module logStr:(NSString*)logStr;
 
 /**

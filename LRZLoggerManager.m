@@ -1,6 +1,5 @@
 //
 //  LRZLoggerManager.m
-//  CKMeiTuanShopView
 //
 //  Created by 刘强 on 2018/10/26.
 //  Copyright © 2018 LightReason. All rights reserved.
